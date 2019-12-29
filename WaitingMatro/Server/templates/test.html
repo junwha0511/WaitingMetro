@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1 style="text-align: center">
+        Subway
+        </h1>
+        <!--form action="/want" method="post">
+            <input type="text" name="wantnumber" value="want">
+            <input type="text" name="sit" value="on/off">
+            <input type="submit" value="Enter">
+        </form-->
+
+
+
+        <div style="position: absolute; left: 50%; transform: translate(-50%); margin-right: 50%;">
+            <form action="/l1" method="get">
+                <input id="l1" type="submit" value="l1" style="padding: 30px; background-color: {{l1c}};border: solid {{l1c}}; font-size: 20px">
+            
+</form>
+        </div>
+    
+
+        <div style="position: absolute; left: 50%; transform: translate(-50%); margin-top: 100px">
+            <form action="/l2" method="get">
+            <input id='l2' type="submit" value="l2" style="padding: 30px; background-color: {{l2c}};border: solid {{l2c}}; font-size: 20px">
+        </form>
+        </div>
+        
+        <form action="/information" method="post" style="position: absolute; left: 50%; transform: translate(-50%);margin-top: 200px">
+            <input type="submit" value="Current Location" style="padding: 20px; border: solid white">
+        </form>
+        <!--form action="/defaultState" method="get">
+            <input type="submit" value="defaultState">
+        </form>
+        <form action="/defaultStation" method="get">
+            <input type="submit" value="defaultStation">
+        </form-->
+    </body>
+</html>
